@@ -16,7 +16,7 @@ install:
   - npm run generate
 
 script:
-  - echo "GITHUB_PAGES_CNAME" > ./dist/CNAME
+  - echo "$GITHUB_PAGES_CNAME" > ./dist/CNAME
 
 deploy:
   provider: pages
