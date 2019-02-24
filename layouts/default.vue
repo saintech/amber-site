@@ -4,7 +4,7 @@
       :links="navLinks"
       :logo="logo"
       :phone="phones[0]">
-      <Button type="primary">&nbsp;&nbsp;<small>Обратный звонок</small>&nbsp;&nbsp;</Button>
+      <Button type="primary">&nbsp;&nbsp;Обратный звонок&nbsp;&nbsp;</Button>
       <Button class="help-btn">?</Button>
     </Navbar>
     <nuxt role="main"/>
@@ -67,7 +67,7 @@ export default {
 @import "../assets/customs";
 
 .help-btn {
-  font-weight: $font-weight-bold;
+  font-weight: $font-weight-bold !important;
 
   &:not(:hover):not(:active) {
     color: $primary !important;

@@ -26,6 +26,16 @@ h1 {
   color: $primary;
 }
 
+@include media-breakpoint-up(lg) {
+  h1 {
+    font-size: $font-size-base * 5;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  text-transform: uppercase;
+}
+
 article {
   &.lead-p > p:first-of-type {
     font-size: $lead-font-size;

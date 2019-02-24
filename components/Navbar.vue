@@ -115,9 +115,5 @@ export default {
   > *:last-child {
     margin-right: 0;
   }
-
-  > button {
-    vertical-align: baseline;
-  }
 }
 </style>
