@@ -5,7 +5,9 @@
       :logo="logo"
       :phone="phones[0]">
       <Button type="primary">&nbsp;&nbsp;Обратный звонок&nbsp;&nbsp;</Button>
-      <Button class="help-btn">?</Button>
+      <Button
+        class="icon-btn"
+        icon="question"/>
     </Navbar>
     <nuxt role="main"/>
     <Footer
@@ -14,9 +16,18 @@
       :links="navLinks"
       :phones="phones"
       :working-time="workingTime">
-      <Button size="small">VK</Button>
-      <Button size="small">&nbsp;f&nbsp;</Button>
-      <Button size="small">IN</Button>
+      <Button
+        class="icon-btn"
+        size="small"
+        icon="vk"/>
+      <Button
+        class="icon-btn"
+        size="small"
+        icon="fb"/>
+      <Button
+        class="icon-btn"
+        size="small"
+        icon="ig"/>
     </Footer>
   </bContainer>
 </template>
@@ -66,7 +77,7 @@ export default {
 <style scoped lang="scss">
 @import "../assets/customs";
 
-.help-btn {
+.icon-btn {
   font-weight: $font-weight-bold !important;
 
   &:not(:hover):not(:active) {
