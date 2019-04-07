@@ -1,4 +1,4 @@
-@import "~bootstrap/scss/functions";
+@import "bootstrap/functions";
 
 // Variables
 //
@@ -953,7 +953,7 @@ $pre-scrollable-max-height:         340px !default;
 $print-page-size:                   a3 !default;
 $print-body-min-width:              map-get($grid-breakpoints, "lg") !default;
 
-@import "~bootstrap/scss/mixins";
+@import "bootstrap/mixins";
 
 @mixin make-container() {
   width: 100%;

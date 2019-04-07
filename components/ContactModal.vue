@@ -98,14 +98,14 @@ export default {
 @import "../assets/customs";
 
 /deep/ {
-  @import "~bootstrap/scss/utilities/display";
-  @import "~bootstrap/scss/utilities/text";
-  @import "~bootstrap/scss/grid";
-  @import "~bootstrap/scss/type";
-  @import "~bootstrap/scss/transitions";
-  @import "~bootstrap/scss/modal";
-  @import "~bootstrap/scss/close";
-  @import "~bootstrap/scss/forms";
+  @import "../assets/bootstrap/utilities/display";
+  @import "../assets/bootstrap/utilities/text";
+  @import "../assets/bootstrap/grid";
+  @import "../assets/bootstrap/type";
+  @import "../assets/bootstrap/transitions";
+  @import "../assets/bootstrap/modal";
+  @import "../assets/bootstrap/close";
+  @import "../assets/bootstrap/forms";
 
   .close {
     position: fixed;

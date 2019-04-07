@@ -69,7 +69,7 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "~bootstrap/scss/type";
+@import "../assets/bootstrap/type";
 
 .logo {
   display: block;

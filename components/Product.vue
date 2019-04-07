@@ -42,8 +42,8 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "~bootstrap/scss/type";
-@import "~bootstrap/scss/card";
+@import "../assets/bootstrap/type";
+@import "../assets/bootstrap/card";
 
 .product {
   background-repeat: no-repeat;

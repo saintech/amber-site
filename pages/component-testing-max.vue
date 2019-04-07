@@ -2146,5 +2146,5 @@ export default {}
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "~bootstrap/scss/bootstrap";
+@import "../assets/bootstrap/bootstrap";
 </style>

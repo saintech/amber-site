@@ -73,16 +73,16 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "~bootstrap/scss/navbar";
-@import "~bootstrap/scss/nav";
-@import "~bootstrap/scss/utilities/spacing";
-@import "~bootstrap/scss/utilities/text";
-@import "~bootstrap/scss/utilities/display";
-@import "~bootstrap/scss/utilities/sizing";
-@import "~bootstrap/scss/utilities/align";
-@import "~bootstrap/scss/buttons";
-@import "~bootstrap/scss/grid";
-@import "~bootstrap/scss/type";
+@import "../assets/bootstrap/navbar";
+@import "../assets/bootstrap/nav";
+@import "../assets/bootstrap/utilities/spacing";
+@import "../assets/bootstrap/utilities/text";
+@import "../assets/bootstrap/utilities/display";
+@import "../assets/bootstrap/utilities/sizing";
+@import "../assets/bootstrap/utilities/align";
+@import "../assets/bootstrap/buttons";
+@import "../assets/bootstrap/grid";
+@import "../assets/bootstrap/type";
 
 .navbar-brand {
   text-align: center;
