@@ -3,6 +3,10 @@ const pkg = require('./package')
 module.exports = {
   mode: 'universal',
 
+  env: {
+    secretEmail: 'spamto' + (process.env.MY_EMAIL || 'block@gmail.com')
+  },
+
   /*
   ** Headers of the page
   */

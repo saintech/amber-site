@@ -1,10 +1,13 @@
 <template>
   <bContainer>
+    <ContactModal v-model="showContactModal"/>
     <Navbar
       :links="navLinks"
       :logo="logo"
       :phone="phones[0]">
-      <Button type="primary">&nbsp;&nbsp;Обратный звонок&nbsp;&nbsp;</Button>
+      <Button
+        type="primary"
+        @click="showContactModal = true">&nbsp;&nbsp;Обратный звонок&nbsp;&nbsp;</Button>
       <Button
         class="icon-btn"
         icon="question"/>
@@ -35,6 +38,7 @@
 <script>
 import Navbar from '../components/Navbar.vue'
 import Button from '../components/Button.vue'
+import ContactModal from '../components/ContactModal'
 import bContainer from 'bootstrap-vue/src/components/layout/container'
 import Footer from '../components/Footer'
 
@@ -43,6 +47,7 @@ export default {
     Footer,
     Navbar,
     Button,
+    ContactModal,
     bContainer
   },
   data: function () {
@@ -66,7 +71,8 @@ export default {
       workingTime: [
         'Some days: 10:00-20:00',
         'Some days: 10:00-20:00'
-      ]
+      ],
+      showContactModal: false
     }
   }
 }

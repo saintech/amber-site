@@ -3,7 +3,10 @@
     :variant="bsVariant"
     :class="textColorClass"
     :size="bsSize"
-    class="button">
+    :block="block"
+    :type="submit ? 'submit' : undefined"
+    class="button"
+    v-on="$listeners">
     <svg
       v-if="icon === 'question'"
       focusable="false"
@@ -63,10 +66,18 @@ export default {
       validator: (val) => ['default', 'small', 'large'].includes(val),
       default: 'default'
     },
+    block: {
+      type: Boolean,
+      default: false
+    },
     icon: {
       type: String,
       validator: (val) => ['', 'question', 'vk', 'fb', 'ig'].includes(val),
       default: ''
+    },
+    submit: {
+      type: Boolean,
+      default: false
     }
   },
   computed: {
