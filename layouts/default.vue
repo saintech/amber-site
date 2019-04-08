@@ -78,7 +78,11 @@ export default {
 }
 </script>
 
-<style src="../assets/grid.scss" lang="scss"/>
+<style lang="scss">
+@import "../assets/customs";
+@import "../assets/bootstrap/bootstrap";
+@import '~bootstrap-vue/dist/bootstrap-vue';
+</style>
 
 <style scoped lang="scss">
 @import "../assets/customs";

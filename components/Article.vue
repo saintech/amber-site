@@ -20,7 +20,6 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "../assets/bootstrap/type";
 
 h1 {
   color: $primary;

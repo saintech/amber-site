@@ -98,15 +98,6 @@ export default {
 @import "../assets/customs";
 
 /deep/ {
-  @import "../assets/bootstrap/utilities/display";
-  @import "../assets/bootstrap/utilities/text";
-  @import "../assets/bootstrap/grid";
-  @import "../assets/bootstrap/type";
-  @import "../assets/bootstrap/transitions";
-  @import "../assets/bootstrap/modal";
-  @import "../assets/bootstrap/close";
-  @import "../assets/bootstrap/forms";
-
   .close {
     position: fixed;
     top: $modal-header-padding;

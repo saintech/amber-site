@@ -110,6 +110,11 @@ footer {
   background-color: $white;
   margin: 0 -50%;
   padding: 4rem 50%;
+
+  h4 {
+    font-size: $font-size-base * 1.125;
+    font-weight: $font-weight-bold;
+  }
 }
 
 .navigation, .phone-numbers, .working-time {

@@ -55,7 +55,6 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "../assets/bootstrap/mixins/breakpoints";
 
 .placeholder {
   margin-bottom: $grid-gutter-width;

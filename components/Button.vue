@@ -99,7 +99,6 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
-@import "../assets/bootstrap/buttons";
 
 .button {
   text-transform: uppercase;
