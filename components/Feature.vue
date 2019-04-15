@@ -41,7 +41,7 @@ export default {
 @import "../assets/customs";
 
 .feature {
-  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  padding: 0.25rem 0.375rem 0.25rem 0.375rem;
   background-repeat: no-repeat;
   background-position: right 1.5rem bottom 1.5rem;
   margin-bottom: $grid-gutter-width;
@@ -58,16 +58,13 @@ export default {
 }
 
 .card-text {
-  font-size: 3.75rem;
+  font-family: $headings-font-family;
+  font-size: 3.5rem;
   font-weight: $font-weight-normal;
-  line-height: $line-height-base / 1.75;
+  line-height: $line-height-base / 1.5;
   color: $primary;
   text-transform: uppercase;
   white-space: pre-line;
-  margin-right: 5.1rem;
-}
-
-.card-footer {
-  padding-top: $card-spacer-x / 4;
+  margin-right: 5.75rem;
 }
 </style>

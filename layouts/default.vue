@@ -14,7 +14,7 @@
     </Navbar>
     <nuxt role="main"/>
     <Footer
-      :logo="logo"
+      :logo="logoFooter"
       :copyright="copyright"
       :links="navLinks"
       :phones="phones"
@@ -53,17 +53,20 @@ export default {
   data: function () {
     return {
       navLinks: [
-        { text: 'Link-1', to: 'link1' },
-        { text: 'Link-2', to: 'link2' },
-        { text: 'Link-3', to: 'link3' },
-        { text: 'Link-4', to: 'link4' },
-        { text: 'Link-5', to: 'link5' }
+        { text: 'Проекты', to: '/' },
+        { text: 'Готовые решения', to: '/' },
+        { text: 'О нас', to: '/' },
+        { text: 'Контакты', to: '/' }
       ],
       logo: {
-        url: 'https://via.placeholder.com/150x80?text=logo',
+        url: require('../assets/images/logo-header.png'),
         description: 'logo'
       },
-      copyright: 'test copyright',
+      logoFooter: {
+        url: require('../assets/images/logo-footer.png'),
+        description: 'logo'
+      },
+      copyright: '2018 Amber Group',
       phones: [
         '+7 910 811 26 83',
         '+7 910 811 26 83'

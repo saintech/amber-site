@@ -158,7 +158,6 @@ import Hero from '../components/Hero'
 import Thumbnail from '../components/Thumbnail'
 import Gallery from '../components/Gallery'
 
-// noinspection JSUnusedGlobalSymbols
 export default {
   components: {
     Gallery,
@@ -173,9 +172,3 @@ export default {
   }
 }
 </script>
-
-<style src="../assets/grid.scss" lang="scss"></style>
-
-<style scoped lang="scss">
-@import "../assets/customs";
-</style>

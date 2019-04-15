@@ -7,7 +7,7 @@
         <img
           :src="logo.url"
           :alt="logo.description">
-        <p><small>&copy; {{ copyright }}</small></p>
+        <p class="mt-sm-5"><small>&copy; {{ copyright }}</small></p>
       </bCol>
       <bCol
         offset-sm="1"
@@ -16,8 +16,8 @@
         lg="2">
         <ul class="navigation">
           <li
-            v-for="link in links"
-            :key="link.to">
+            v-for="(link, index) in links"
+            :key="index">
             <bLink :to="link.to">{{ link.text }}</bLink>
           </li>
         </ul>

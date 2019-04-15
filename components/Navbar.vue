@@ -4,8 +4,8 @@
     class="row align-items-center">
     <bNavbarNav class="col">
       <bNavItem
-        v-for="link in links"
-        :key="link.to"
+        v-for="(link, index) in links"
+        :key="index"
         :to="link.to"
         class="text-nowrap text-uppercase">
         {{ link.text }}
@@ -14,6 +14,7 @@
     <bNavbarBrand
       v-if="logo.url.length > 0"
       to="/"
+      title="на главную"
       class="col-auto">
       <img
         :src="logo.url"
@@ -73,6 +74,7 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/customs";
+@import "../assets/bootstrap/grid";
 
 .navbar-brand {
   text-align: center;
@@ -88,7 +90,7 @@ export default {
 }
 
 .brand-image {
-  height: 5rem;
+  min-height: 5rem;
 }
 
 .phone {

@@ -2140,11 +2140,5 @@
 </template>
 
 <script>
-// noinspection JSUnusedGlobalSymbols
 export default {}
 </script>
-
-<style scoped lang="scss">
-@import "../assets/customs";
-@import "../assets/bootstrap/bootstrap";
-</style>

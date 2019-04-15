@@ -88,7 +88,7 @@ export default {
 }
 
 .title {
-  font-size: $h6-font-size;
+  font-size: $h3-font-size;
   text-transform: uppercase;
   margin-top: 1.5rem;
 }
