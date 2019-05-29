@@ -55,8 +55,6 @@ import bForm from 'bootstrap-vue/src/components/form/form'
 import bFormInput from 'bootstrap-vue/src/components/form-input/form-input'
 import Button from './Button'
 
-// const qwe = process['server'] ? Buffer.from('spamto' + 'petrovich_yar@mail.ru').toString('base64') : undefined
-
 export default {
   name: 'ContactModal',
   components: {
